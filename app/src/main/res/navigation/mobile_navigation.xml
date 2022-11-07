@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_paginainicial">
+
+    <fragment
+        android:id="@+id/nav_paginainicial"
+        android:name="com.devtfvl.navsub.ui.paginainicial.PaginaInicial"
+        android:label="Página Inicial"
+        tools:layout="@layout/fragment_pagina_inicial" />
+
+    <fragment
+        android:id="@+id/nav_servicos"
+        android:name="com.devtfvl.navsub.ui.servicos.Servicos"
+        android:label="Serviços"
+        tools:layout="@layout/fragment_servicos" />
+
+    <fragment
+        android:id="@+id/nav_clientes"
+        android:name="com.devtfvl.navsub.ui.clientes.Clientes"
+        android:label="Clientes"
+        tools:layout="@layout/fragment_clientes" />
+
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="com.devtfvl.navsub.ui.contato.Contato"
+        android:label="Contato"
+        tools:layout="@layout/fragment_contato" />
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="com.devtfvl.navsub.ui.sobre.Sobre"
+        android:label="Sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+
+
+</navigation>
